@@ -1,0 +1,31 @@
+
+body{
+    background-color: slategrey;
+}
+
+.index{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.icon{
+    
+    margin-left: 44.1%;
+    margin-top: 1%;
+    display: block;
+}
+
+.index2{
+    border: 15px solid #a8ceff;
+}
+
+.blank{
+    margin-top: 21.6%;
+}
+
+.linktext{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
