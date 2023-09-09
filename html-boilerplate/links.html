@@ -6,13 +6,11 @@
     <title>Music</title>
 </head>
 <body>
-    <div class="linktext">
-    <a href="file:///home/ubuntu/Odin-Html-main/html-boilerplate/index.html" target="_blank" rel="noopener norefferer">Your Index</a>
-    <p>This is for playing music</p>
-    <form action="musicplayer.php" method="post">
-    <input type="text" name="url" placeholder="url">
-    <button type="submit" name="submit">Submit</button>
-    </form>
-    </div class="linktext">
+    <button class="MusicButton" onclick="audio.play()">Click Me</button>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.scr = "./song.mp3";
+    </script>
 </body>
 </html> 
+

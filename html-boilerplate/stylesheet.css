@@ -29,3 +29,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
 }
+
+.MusicButton{
+    align-items: center;
+    font-size: 25px;
+}
