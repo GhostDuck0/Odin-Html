@@ -6,11 +6,13 @@
     <title>Music</title>
 </head>
 <body>
-    <button class="MusicButton" onclick="audio.play()">Click Me</button>
-    <script type="text/javascript">
-        const audio = new Audio();
-        audio.scr = "./song.mp3";
-    </script>
+    <audio id="audio">
+        <source src="./numb.mp3" type="audio/mpeg">
+    </audio>
+    <button class="PlayButton" onclick="Play()">Play/Pause</button>
+    <button class="StopButton" onclick="Stop()">Restart</button>
+
+    <script src="music.js"></script>
 </body>
 </html> 
 

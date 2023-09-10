@@ -1,6 +1,6 @@
 
 body{
-    background-color: slategrey;
+    background-color: #4a4a4a;
 }
 
 .index{
@@ -17,7 +17,7 @@ body{
 }
 
 .index2{
-    border: 15px solid #a8ceff;
+    border: 15px solid grey;
 }
 
 .blank{
@@ -30,7 +30,30 @@ body{
     font-size: 35px;
 }
 
-.MusicButton{
-    align-items: center;
-    font-size: 25px;
+
+.PlayButton{
+    width: 300px;
+    border: 5px solid black;
+    position: relative;
+    background-color: grey;
+    color: whitesmoke;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 41%;
+    margin-top: 16%;
+}
+
+.StopButton{
+    display: block;
+    width: 300px;
+    border: 5px solid black;
+    position: relative;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 41%;
 }
